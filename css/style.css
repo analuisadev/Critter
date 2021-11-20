@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    background-color: #C5C1B6;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background-color: #88A489;
+    padding: 1rem;
+}
+
+.logo {
+    margin-right: 0.5em;
+}
+
+.title {
+    margin: 0;
+    font-weight: 200;
+}
+
+.content {
+    max-width: 400px;
+    margin: 1em auto;
+}
+
+.card-1, .card-2 {
+    background-color: white;
+    border-radius: 3px;
+    padding: 1.5em;
+    max-height: 200px;
+    width: 500px;
+    margin-bottom: 2em;
+    overflow: hidden;
+    box-shadow: 0 2px 1px rgba(0,0,0,0.15);
+}
+
+img{
+    max-width: 500px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    float: left;
+    padding-right: 10px;
+}
+
+.nickname, .date {
+    font-size: 1em;
+    display: inline-block;
+}
+
+.comment {
+    padding: 5px;
+}
+
+.like, .date {
+    color: #AAADC1;
+}
+
